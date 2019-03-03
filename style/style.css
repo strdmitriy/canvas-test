@@ -1,0 +1,80 @@
+body {
+    background: white;
+}
+
+#canvas {
+    border: 1px solid #000;
+}
+
+.choose-color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.choose-color__title {
+    margin-right: 20px;
+}
+
+.choose-color__item {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.choose-color__item:last-child {
+    margin-right: 0px;
+}
+
+.choose-color__item_red {
+    background: red;
+}
+
+.choose-color__item_green {
+    background: green;
+}
+
+.choose-color__item_blue {
+    background: blue;
+}
+
+.choose-color__item_grey {
+    background: grey;
+}
+
+.choose-color__item_yellow {
+    background: yellow;
+}
+
+.choose-width {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.choose-width__title {
+    margin-right: 20px;
+}
+
+.choose-width__item {
+    margin-right: 10px;
+    background: grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.choose-width__item_small {
+    width: 20px;
+    height: 20px;
+}
+
+.choose-width__item_medium {
+    width: 30px;
+    height: 30px;
+}
+
+.choose-width__item_large {
+    width: 40px;
+    height: 40px;
+}
